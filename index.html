@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,11 +15,16 @@
         <fieldset>
           <legend>Cursos Desejados</legend>
           Quais cursos você fará?<br>
-          <select name="curso">
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="javascript">JavaScript</option>
-          </select>
+          <input type="email" name="email" >
+          <input type="date" name="data">
+          <input type="range" name="faixa">
+          <input type="color" name="cor">
+          <input list="cursos" name="curso">
+            <datalist id="Cursos">
+              <option value="HTML">
+              <option value="CSS">
+              <option value="JavaScript">    
+            </datalist>
       </form>
     </section>
     <footer></footer>

@@ -1,0 +1,10 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  letter-spacing: 0.5em;
+  text-align: justify;
+  text-decoration: overline;
+  text-indent: 30pt;
+  text-shadow: blue 5px 6px 2px;
+  text-transform: capitalize;
+}

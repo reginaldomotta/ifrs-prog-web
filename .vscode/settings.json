@@ -3,6 +3,8 @@
   "editor.fontSize": 18,
   "editor.lineHeight": 30,
   "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
@@ -23,10 +25,5 @@
   "prettier.semi": false,
 
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.profiles.windows": {
-    "Git Bash": {
-      "source": "Git Bash"
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell"
 }
